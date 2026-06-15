@@ -187,7 +187,7 @@
   position: absolute;
   border-radius: var(--radius-xl);
   overflow: hidden;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  box-shadow: 0 25px 60px rgba(255, 180, 140, 0.75); /* noticeable peach color shadow */
   opacity: 0;
   animation: fadeUp 1s ease forwards;
 }
@@ -206,10 +206,10 @@
 
 /* 1. Main Large Image */
 .imgMain {
-  width: 55%;
+  width: 42%;
   aspect-ratio: 3 / 4;
-  top: 10%;
-  left: 5%;
+  top: 0%;
+  left: 0%;
   z-index: 2;
   animation-delay: 0.4s;
 }
@@ -220,10 +220,10 @@
 
 /* 2. Top Right Accent Image */
 .imgTopRight {
-  width: 30%;
-  aspect-ratio: 9 / 16;
-  top: 10%;
-  right: 10%;
+  width: 42%;
+  aspect-ratio: 4 / 5;
+  top: 0%;
+  right: 0%;
   z-index: 1;
   animation-delay: 0.6s;
 }
@@ -234,10 +234,10 @@
 
 /* 3. Bottom Left Accent Image */
 .imgBottomLeft {
-  width: 45%;
+  width: 55%;
   aspect-ratio: 4 / 5;
-  top: 40%;
-  right: 15%;
+  top: 45%;
+  left: 22.5%;
   z-index: 3;
   animation-delay: 0.8s;
 }
